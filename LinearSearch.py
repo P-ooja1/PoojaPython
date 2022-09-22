@@ -8,5 +8,5 @@ for j in range(0, x, 1):
 print(y)
 z = input("Enter the search list value")
 for k in range(0, len(y),1) :
-    if y[k] == z :
-        print(y[k])
+    if z == y[k] :
+        print(k)
